@@ -11,6 +11,8 @@
 		D440BC172879EA2800D07DAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440BC162879EA2800D07DAB /* ContentView.swift */; };
 		D440BC192879EA3200D07DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D440BC182879EA3200D07DAB /* Assets.xcassets */; };
 		D440BC1C2879EA3200D07DAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D440BC1B2879EA3200D07DAB /* Preview Assets.xcassets */; };
+		D493D861287A77F0006574C3 /* secondList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493D860287A77EF006574C3 /* secondList.swift */; };
+		D493D863287A878C006574C3 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493D862287A878C006574C3 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D440BC162879EA2800D07DAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D440BC182879EA3200D07DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D440BC1B2879EA3200D07DAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D493D860287A77EF006574C3 /* secondList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondList.swift; sourceTree = "<group>"; };
+		D493D862287A878C006574C3 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D440BC142879EA2800D07DAB /* bankAccountApp.swift */,
 				D440BC162879EA2800D07DAB /* ContentView.swift */,
+				D493D860287A77EF006574C3 /* secondList.swift */,
+				D493D862287A878C006574C3 /* OrderView.swift */,
 				D440BC182879EA3200D07DAB /* Assets.xcassets */,
 				D440BC1A2879EA3200D07DAB /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D493D861287A77F0006574C3 /* secondList.swift in Sources */,
+				D493D863287A878C006574C3 /* OrderView.swift in Sources */,
 				D440BC172879EA2800D07DAB /* ContentView.swift in Sources */,
 				D440BC152879EA2800D07DAB /* bankAccountApp.swift in Sources */,
 			);
