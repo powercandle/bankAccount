@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     @State private var email = ""
     @State private var pass = ""
-    @State private var isSecured: Bool = true
+    @State private var show2 = false
     var body: some View {
         ZStack {
-            VStack(spacing: 27){
+            VStack(spacing: 30){
                 
                 Image("logo")
                     .offset(x: 0, y: 35)
@@ -46,7 +46,7 @@ struct ContentView: View {
                         )
                        .foregroundColor(.white)
                        .shadow(color: .black.opacity(0.1) , radius: 15, y: 5)
-                    
+                  
                     VStack(alignment: .leading, spacing: 8){
                         Text("Password")
                             .foregroundColor(Color("colortext"))
@@ -65,7 +65,7 @@ struct ContentView: View {
                 
                
                     Button {
-                        //
+                        self.show2.toggle()
                     } label: {
                         ZStack{
                             RoundedRectangle(cornerRadius: 50)
@@ -76,10 +76,12 @@ struct ContentView: View {
                         Text ("Login")
                             .foregroundColor(.white)
                             .fontWeight(.bold)
-                        }
+                            
                             
                     }
-
+                    }.sheet(isPresented: $show2) {
+                        secondList()
+                    }
                    
                 
              //(spacing: UIScreen.main.bounds.width * 0.28)
